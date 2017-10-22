@@ -13,6 +13,9 @@
 		4512802C1F9CD5DE0066DAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4512802B1F9CD5DE0066DAAE /* Assets.xcassets */; };
 		4512802F1F9CD5DE0066DAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4512802D1F9CD5DE0066DAAE /* LaunchScreen.storyboard */; };
 		451280321F9CD5DE0066DAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 451280311F9CD5DE0066DAAE /* main.m */; };
+		4512803A1F9CD5FD0066DAAE /* WaveGridArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 451280391F9CD5FD0066DAAE /* WaveGridArrow.m */; };
+		451280411F9CD6F70066DAAE /* WaveGridArrowUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 451280401F9CD6F70066DAAE /* WaveGridArrowUp.m */; };
+		451280441F9CD7950066DAAE /* WaveGridArrowDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 451280431F9CD7950066DAAE /* WaveGridArrowDown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		4512802E1F9CD5DE0066DAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451280301F9CD5DE0066DAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		451280311F9CD5DE0066DAAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		451280381F9CD5FD0066DAAE /* WaveGridArrow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveGridArrow.h; sourceTree = "<group>"; };
+		451280391F9CD5FD0066DAAE /* WaveGridArrow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveGridArrow.m; sourceTree = "<group>"; };
+		4512803F1F9CD6F70066DAAE /* WaveGridArrowUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveGridArrowUp.h; sourceTree = "<group>"; };
+		451280401F9CD6F70066DAAE /* WaveGridArrowUp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveGridArrowUp.m; sourceTree = "<group>"; };
+		451280421F9CD7950066DAAE /* WaveGridArrowDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveGridArrowDown.h; sourceTree = "<group>"; };
+		451280431F9CD7950066DAAE /* WaveGridArrowDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveGridArrowDown.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +71,25 @@
 				451280231F9CD5DE0066DAAE /* AppDelegate.m */,
 				451280251F9CD5DE0066DAAE /* ViewController.h */,
 				451280261F9CD5DE0066DAAE /* ViewController.m */,
+				4512803B1F9CD6300066DAAE /* WaveGridArrow */,
 				451280281F9CD5DE0066DAAE /* Main.storyboard */,
 				4512802B1F9CD5DE0066DAAE /* Assets.xcassets */,
 				4512802D1F9CD5DE0066DAAE /* LaunchScreen.storyboard */,
 				451280301F9CD5DE0066DAAE /* Info.plist */,
 				451280311F9CD5DE0066DAAE /* main.m */,
+			);
+			path = WaveGridArrow;
+			sourceTree = "<group>";
+		};
+		4512803B1F9CD6300066DAAE /* WaveGridArrow */ = {
+			isa = PBXGroup;
+			children = (
+				451280381F9CD5FD0066DAAE /* WaveGridArrow.h */,
+				451280391F9CD5FD0066DAAE /* WaveGridArrow.m */,
+				4512803F1F9CD6F70066DAAE /* WaveGridArrowUp.h */,
+				451280401F9CD6F70066DAAE /* WaveGridArrowUp.m */,
+				451280421F9CD7950066DAAE /* WaveGridArrowDown.h */,
+				451280431F9CD7950066DAAE /* WaveGridArrowDown.m */,
 			);
 			path = WaveGridArrow;
 			sourceTree = "<group>";
@@ -143,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				451280271F9CD5DE0066DAAE /* ViewController.m in Sources */,
+				451280411F9CD6F70066DAAE /* WaveGridArrowUp.m in Sources */,
 				451280321F9CD5DE0066DAAE /* main.m in Sources */,
+				4512803A1F9CD5FD0066DAAE /* WaveGridArrow.m in Sources */,
+				451280441F9CD7950066DAAE /* WaveGridArrowDown.m in Sources */,
 				451280241F9CD5DE0066DAAE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
