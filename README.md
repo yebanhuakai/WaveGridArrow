@@ -3,9 +3,12 @@ A animation of wave and grid of Arrow, Contains two arrows, red and green
 
 ![image](https://github.com/yebanhuakai/WaveGridArrow/blob/master/WaveGridArrow.gif)
 
-This is too easy to use, #import "WaveGridArrowUp.h" or #import "WaveGridArrowDown.h", then:
+This is too easy to use:
 
 ```objectivec
+#import "WaveGridArrowUp.h"
+#import "WaveGridArrowDown.h"
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
